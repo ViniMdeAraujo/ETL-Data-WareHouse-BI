@@ -4,9 +4,7 @@ Produtos: Cria um conjunto de dados de produtos com 600 produtos, incluindo prod
 
 Vendas: Cria um conjunto de dados de vendas com 1000 registros de vendas, incluindo data, produto_id, quantidade e valor_total. Os dados são convertidos em um DataFrame e salvos em um arquivo CSV chamado vendas.csv.
 
-Manipulação de Dados: Os arquivos CSV são carregados de volta em DataFrames. Os DataFrames de vendas e produtos são mesclados com base em produto_id usando uma junção interna (inner join).
-
-O resultado é salvo em um arquivo CSV chamado data_warehouse.csv.
+Manipulação de Dados: Os arquivos CSV são carregados de volta em DataFrames. Os DataFrames de vendas e produtos são mesclados com base em produto_id usando uma junção interna (inner join). O resultado é salvo em um arquivo CSV chamado data_warehouse.csv.
 
 Visualização de Dados: O arquivo data_warehouse.csv é carregado novamente em um DataFrame chamado df_warehouse. O conteúdo do df_warehouse é exibido no console.
 
